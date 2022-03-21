@@ -26,6 +26,8 @@ public class TestBase {
         String password = System.getProperty("password");
         String remoteUrl = System.getProperty("remoteUrl");
         Configuration.remote = "https://" + user + ":" + password + "@" + remoteUrl;
+        System.out.println(Configuration.remote);
+
 
 
     }
